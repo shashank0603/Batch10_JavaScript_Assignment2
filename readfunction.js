@@ -1,10 +1,7 @@
 function getById(){
     console.log("Get by ID")
-    var x = document.getElementById("demo");
-    console.log(x);
-    x.textContent = "this content was changed";
-    x.style.color="red";
-}
+     document.getElementById("demo").style.backgroundColor="red";}
+
 function getByClass(){
     console.log("Get by Class")
     var x = document.getElementsByClassName("test")
